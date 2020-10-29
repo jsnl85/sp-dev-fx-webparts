@@ -12,6 +12,8 @@ lib
 solution
 temp
 *.sppkg
+# except for the 'packaged' folder
+!packaged/*.sppkg
 
 # Coverage directory used by tools like istanbul
 coverage
